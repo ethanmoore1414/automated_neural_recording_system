@@ -40,8 +40,8 @@ class Stepper_Driver(object):
 	_pulseSpeed = -1           # the current speed in pulses per second
 	_pulseSpeedTarget = -1     # the maximum speed in pulses per second
 	_pulseAcceleration = -1    # the acceleration in steps per second per second
-    _pulseAccelerationMax = -1 # the max acceleration in steps per second per second
-    _pulseAccelerationMin = -1 # the min acceleration in steps per second per second
+	_pulseAccelerationMax = -1 # the max acceleration in steps per second per second
+	_pulseAccelerationMin = -1 # the min acceleration in steps per second per second
 	_pulseTimeLast = 0         # the last step time in microseconds
 	_pulseAccelCount = 0       # step counter
 	_pulsePeriod = -1          # the current interval between two steps
